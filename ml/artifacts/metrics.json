@@ -1,0 +1,67 @@
+{
+  "products": 18,
+  "interactions": 70,
+  "users": 10,
+  "source": "seed-data",
+  "precision_at_5": 0.16,
+  "sample_user": "U101",
+  "sample_user_recommendations": [
+    {
+      "product_id": "P006",
+      "collaborative_score": 0.10562776541259833,
+      "content_score": 1.0,
+      "popularity_score": 0.42857142857142855,
+      "score": 0.41679657864596176
+    },
+    {
+      "product_id": "P017",
+      "collaborative_score": 0.1586268514918193,
+      "content_score": 0.8099689173961596,
+      "popularity_score": 0.2857142857142857,
+      "score": 0.38260089983455003
+    },
+    {
+      "product_id": "P008",
+      "collaborative_score": 0.10303690964662135,
+      "content_score": 0.7610245794937137,
+      "popularity_score": 0.5714285714285714,
+      "score": 0.35757606774360623
+    },
+    {
+      "product_id": "P009",
+      "collaborative_score": 0.0,
+      "content_score": 0.688674791844157,
+      "popularity_score": 0.7142857142857143,
+      "score": 0.2780310089818186
+    },
+    {
+      "product_id": "P005",
+      "collaborative_score": 0.10550577108167034,
+      "content_score": 0.5260184318280938,
+      "popularity_score": 0.35714285714285715,
+      "score": 0.2673738550198831
+    }
+  ],
+  "sample_related_products": [
+    {
+      "product_id": "P008",
+      "score": 0.10370728036376899
+    },
+    {
+      "product_id": "P011",
+      "score": 0.09346878985530663
+    },
+    {
+      "product_id": "P016",
+      "score": 0.07249770903148822
+    },
+    {
+      "product_id": "P009",
+      "score": 0.069592018148409
+    },
+    {
+      "product_id": "P006",
+      "score": 0.05225216470875728
+    }
+  ]
+}

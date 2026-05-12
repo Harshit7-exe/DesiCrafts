@@ -1,0 +1,19 @@
+{
+  "name": "local-artisan-estore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DesiCrafts MERN full stack e-store for local artisan products.",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "train:ml": "python ml/train_models.py",
+    "export:ml": "node server/src/scripts/exportMlData.js",
+    "retrain:ml": "npm run export:ml && npm run train:ml"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
